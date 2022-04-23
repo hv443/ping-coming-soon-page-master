@@ -18,8 +18,9 @@ notifyBtn.addEventListener('click',(e)=>{
         error.classList.remove('error-display')
         input.style.border = "1px solid hsl(223, 100%, 88%)"
         alert('Subscribed')
-       
+          
     }
+
     else if(inputText === ""){
         error.textContent = "Please enter your email address"
         error.classList.add('error-display')
